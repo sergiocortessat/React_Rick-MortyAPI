@@ -1,26 +1,22 @@
 {
-  "name": "Rick&MortyAPI",
+  "name": "Rick_Mortyapi",
   "version": "1.0.0",
-  "description": "## Table of Contents   <br />",
-  "main": "webpack.config.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "watch": "jest --watch",
-    "build": "webpack",
-    "start": "webpack serve --open",
-    "dev": "webpack --mode development"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergiocortessat/JSCapstone-PlatformGame.git"
+    "url": "git+https://github.com/sergiocortessat/React_Rick-MortyAPI.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sergiocortessat/JSCapstone-PlatformGame/issues"
+    "url": "https://github.com/sergiocortessat/React_Rick-MortyAPI/issues"
   },
-  "homepage": "https://github.com/sergiocortessat/JSCapstone-PlatformGame#readme",
+  "homepage": "https://github.com/sergiocortessat/React_Rick-MortyAPI#readme",
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/plugin-transform-regenerator": "^7.14.5",
@@ -42,7 +38,6 @@
     "jest": "^26.6.3",
     "jest-canvas-mock": "^2.3.0",
     "jest-expect-subclass": "^1.0.1",
-    "phaser": "^3.55.2",
     "postcss": "^8.3.4",
     "regenerator-runtime": "^0.13.7",
     "style-loader": "^2.0.0",
@@ -60,7 +55,6 @@
     "@jest/globals": "^27.0.3",
     "date-fns": "^2.21.3",
     "jsdom": "^16.6.0",
-    "phaser": "^3.55.2",
     "populate.js": "^1.2.2"
   },
   "jest": {
