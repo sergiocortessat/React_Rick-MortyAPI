@@ -18,7 +18,7 @@
 <br />
 
 ![Javascript](https://img.shields.io/badge/Javascript-3776AB?style=for-the-badge&logo=javascript&logoColor=white) <br/>
-![Phaser](https://img.shields.io/badge/phaser-092E20?style=for-the-badge&logo=phaser&logoColor=white) <br/>
+![React](https://img.shields.io/badge/React-092E20?style=for-the-badge&logo=react&logoColor=white) <br/>
 
 
 <br />
