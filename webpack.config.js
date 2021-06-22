@@ -33,6 +33,17 @@ module.exports = {
         ],
       },
       {
+        test: /\.s[ac]ss$/i,
+        use: [
+            'style-loader',
+            'css-loader',
+            'sass-loader'
+        ],
+        resolve: {
+            extensions: ['.sass', '.scss']
+        }
+    },
+      {
         test: /\.(png|svg|jpg|jpeg|gif)$/,
         use: [
           { loader: 'file-loader' },
