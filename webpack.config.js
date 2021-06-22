@@ -33,6 +33,30 @@ module.exports = {
         ],
       },
       {
+        test: /\.s[ac]ss$/i,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+        ],
+        resolve: {
+          extensions: ['.sass', '.scss'],
+        },
+      },
+
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'fonts/',
+            },
+          },
+        ],
+      },
+      {
         test: /\.(png|svg|jpg|jpeg|gif)$/,
         use: [
           { loader: 'file-loader' },
@@ -79,10 +103,10 @@ module.exports = {
           to: path.resolve(__dirname, 'dist'),
         },
         {
-          // from: path.resolve(__dirname, 'assets', '**', '*'),
-          // to: path.resolve(__dirname, 'dist'),
-          from: path.resolve(__dirname, 'assets'),
-          to: path.resolve(__dirname, 'dist/assets'),
+          from: path.resolve(__dirname, 'assets', '**', '*'),
+          to: path.resolve(__dirname, 'dist'),
+          // from: path.resolve(__dirname, 'assets'),
+          // to: path.resolve(__dirname, 'dist/assets'),
         },
       ],
     }),
