@@ -19,19 +19,23 @@
 
 ![Javascript](https://img.shields.io/badge/Javascript-3776AB?style=for-the-badge&logo=javascript&logoColor=white) <br/>
 ![React](https://img.shields.io/badge/React-092E20?style=for-the-badge&logo=react&logoColor=white) <br/>
+![Sass](https://img.shields.io/badge/Sass-092E20?style=for-the-badge&logo=sass&logoColor=white) <br/>
 
+## Screenshot
 
-<br />
+<p align="center">
+  <img height="auto" src="Screenshot.png">
+</p>
 
 ### Built With
 
-* [JAVASCRIPT] [PHASER] [WEBPACK] [LEADERBOARD_API]
+* [JAVASCRIPT] [REACT] [SASS] [API]
 
 <br />
 
 ## Live Version
 
-* [Live Demo](https://sergiocortessat.github.io/JSCapstone-PlatformGame/) 
+* [Live Demo](https://sergiocortessat.github.io/React_Rick-MortyAPI/) 
 
 <!-- ABOUT THE PROJECT   -->
 
@@ -40,15 +44,6 @@
 ## About The Project
 
 <br />
-
-
-## Screenshot
-
-- Boot Scene
-
-<p align="center">
-  <img height="auto" src="assets/img/boot.png">
-</p>
 
 
 ## Contributing
@@ -64,39 +59,22 @@ Terminal or similar to execute the program.
 
 
 ## Clone project
-
 - To get a local copy up and running follow these simple example steps.
-- Clone this repository with git clone ```https://github.com/sergiocortessat/JSCapstone-PlatformGame/tree/feature``` using your terminal or command line.
-- Change to the project directory by entering: ```cd JSCapstone-PlatformGame``` in the terminal.
+- Clone this repository with git clone ```https://github.com/sergiocortessat/React_Rick-MortyAPI/``` using your terminal or command line.
+- Change to the project directory by entering: ```cd React_Rick-MortyAPI``` in the terminal.
 - Enter the command npm i
 - Enter the project folder and run locally by using npm start.
 - If the project cant be build, please run npx webpack.
 
 ## Command line steps
 ```
-- $ git clone `$ git clone https://github.com/sergiocortessat/JSCapstone-PlatformGame/tree/feature
+- $ git clone `$ git clone https://github.com/sergiocortessat/React_Rick-MortyAPI
 - $ git checkout develop
 - $ cd JSCapstone-PlatformGame
 - $ npm i
 - $ npm start
 - ##(If project doesn't build, please run): $ npx webpack
 ```
-
-## Testing
-
-The testing has been performed using Jest Framework. 
-
-- To run the test please open the command line
-- Enter npm run test to run the testing once.
-- Enter npm run watch to keep jest test open
-
-```
-- $ cd JSCapstone-PlatformGame
-- $ npm run test
-- $ npm run watch  (optional)
-
-```
-![Tests](assets/img/test.png)
 
 
 ## Authors
