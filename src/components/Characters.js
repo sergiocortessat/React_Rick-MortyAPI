@@ -10,6 +10,7 @@ const Character = () => {
       .then((response) => response.json())
       .then((data) => setCharacter(data.results));
   });
+
   return (
     <div className="container">
       <div className="characters">
