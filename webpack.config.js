@@ -35,27 +35,27 @@ module.exports = {
       {
         test: /\.s[ac]ss$/i,
         use: [
-            'style-loader',
-            'css-loader',
-            'sass-loader'
+          'style-loader',
+          'css-loader',
+          'sass-loader',
         ],
         resolve: {
-            extensions: ['.sass', '.scss']
-        }
-    },
+          extensions: ['.sass', '.scss'],
+        },
+      },
 
-    {
-      test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-      use: [
-        {
-          loader: 'file-loader',
-          options: {
-            name: '[name].[ext]',
-            outputPath: 'fonts/'
-          }
-        }
-      ]
-    },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'fonts/',
+            },
+          },
+        ],
+      },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/,
         use: [
