@@ -1,8 +1,11 @@
-import React, { Fragment } from 'react'
+import React, {Fragment} from 'react'
+import Header from './header'
 
 const App = () => {
     return ( 
-      <div><p>Hello</p></div>  
+        <Fragment>
+            <Header />
+        </Fragment>
      );
 }
  
