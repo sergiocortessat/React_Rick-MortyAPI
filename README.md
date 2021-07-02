@@ -8,6 +8,9 @@
 
 The rick and morty api is a simple project that testes the rick and morty api page with the power of React. As a user, you might see some main characters form the series, the race and their life status
 
+## Live Version
+
+- [Live Demo](https://sergiocortessat.github.io/React_Rick-MortyAPI/)
 
 ## Table of Contents
 
@@ -42,9 +45,6 @@ The rick and morty api is a simple project that testes the rick and morty api pa
 
 <br />
 
-## Live Version
-
-- [Live Demo](https://sergiocortessat.github.io/React_Rick-MortyAPI/)
 
 <!-- ABOUT THE PROJECT   -->
 
